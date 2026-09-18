@@ -37,7 +37,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 chat_sessions = {}   # { channel_id: chat_session }
 channel_models = {}  # { channel_id: "model_name" }
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.6-flash"
 
 # LỜI DẶN HỆ THỐNG: Bắt buộc Bot luôn trả lời bằng tiếng Việt
 SYSTEM_INSTRUCTION = "Bạn là một trợ lý AI thông minh trên Discord. Luôn luôn trả lời hoàn toàn bằng tiếng Việt tự nhiên, lịch sự và dễ hiểu, ngoại trừ khi người dùng yêu cầu dịch sang ngôn ngữ khác hoặc viết mã code."
