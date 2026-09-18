@@ -39,7 +39,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 chat_sessions = {}   # { channel_id: chat_session }
 channel_models = {}  # { channel_id: "model_name" }
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.6-flash"
 
 @bot.event
 async def on_ready():
